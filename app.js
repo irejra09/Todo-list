@@ -35,15 +35,15 @@ const itemsSchema = new mongoose.Schema({
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item({
-  name: "Welcome jdj",
+  name: "Task1",
 });
 
 const item2 = new Item({
-  name: "Badhiya",
+  name: "Task2",
 });
 
 const item3 = new Item({
-  name: "Kyaa haal",
+  name: "Task3",
 });
 
 const defaultItems = [item1, item2, item3];
